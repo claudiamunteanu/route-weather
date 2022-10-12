@@ -1,0 +1,80 @@
+.popup-content {
+    width: 60%;
+    height: 90%;
+}
+.modal-content {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin:auto;
+    padding: 10px;
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+}
+
+.text-content{
+    overflow-y: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.image{
+    background-color: #2980b9;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.text-content > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
+.text-content > .content {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+.text-content h4{
+    color: black;
+    padding: 20px 0 5px 0;
+}
+
+.modal-content > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.trigger-button{
+    background: var(--darkGrey);
+    min-width: 100px;
+    border-radius: 30px;
+    color: var(--white);
+    border: 0;
+    height: 45px;
+    width: 25%;
+    font-size: var(--fontSmall);
+    background: var(--darkGrey);
+    margin: 20px auto;
+    transition: all 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.trigger-button:hover{
+    opacity: 0.8;
+}

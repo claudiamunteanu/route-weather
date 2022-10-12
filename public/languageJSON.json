@@ -1,0 +1,382 @@
+{
+  "english": {
+    "lang": "en",
+    "home": {
+      "startingCityPrompt": "Starting city",
+      "destinationCityPrompt": "Destination city",
+      "subscribe": "Subscribe to the route",
+      "emailAddressPrompt": "Email address",
+      "startingTimePrompt": "Notification time:",
+      "notificationFrequency": "Notification frequency:",
+      "day": "Day",
+      "days": "Days",
+      "submit": "Submit"
+    },
+    "headers": {
+      "cityName": "City Name",
+      "time": "Time",
+      "weather": "Weather Description",
+      "clouds": "Clouds",
+      "wind": "Wind Speed"
+    },
+    "showRoute": {
+      "generatePDF": "Generate PDF",
+      "seeDrivingTips": "See driving tips",
+      "approximately": "Approximately",
+      "hours": "hours",
+      "hour": "hour",
+      "minutes": "mins",
+      "minute": "min"
+    },
+    "routePDF": {
+      "title": "Route Forecast",
+      "startingCityPrompt": "Starting city:",
+      "destinationCityPrompt": "Destination city:",
+      "startingTimePrompt": "Starting time:",
+      "mode": "Mode of transportation:"
+    },
+    "drivingTips": {
+      "title": "Driving Tips"
+    },
+    "weatherTypes": {
+      "clouds": "Clouds",
+      "thunderstorm": "Thunderstorm",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "atmosphere": "Atmosphere",
+      "clear": "Clear"
+    },
+    "modeOfTransport": {
+      "driving": "driving",
+      "bicycling": "bicycling",
+      "transit": "transit"
+    },
+    "city": "City",
+    "placeData": {
+      "county": "County",
+      "latitude": "Latitude",
+      "longitude": "Longitude"
+    },
+    "topBar": {
+      "route": "Romanian Route",
+      "statistics": "Statistics",
+      "signedInAs": "Signed in as:"
+    },
+    "statistics": {
+      "title": "Check statistics for the previous seven days",
+      "button": "Show statistics",
+      "checkDataTitle": "Check what data you wish to see:",
+      "dataCategories": {
+        "temperature": "Temperature",
+        "wind": "Wind speed",
+        "humidity": "Humidity",
+        "rain": "Rain",
+        "avgData": "Average data"
+      },
+      "subtitle1": "Data for",
+      "temperatures": "Temperatures",
+      "windSpeed": "Wind Speed",
+      "humidity": "Humidity",
+      "rainVolume": "Rain Volume",
+      "hours": "Hours",
+      "days": {
+        "monday": "Mon.",
+        "tuesday": "Tue.",
+        "wednesday": "Wed.",
+        "thursday": "Thur.",
+        "friday": "Fri.",
+        "saturday": "Sat.",
+        "sunday": "Sun."
+      },
+      "subtitle3": "Average values for each day",
+      "headers": {
+        "date": "Date",
+        "weather": "Weather",
+        "temp": "Temp.",
+        "minTemp": "Min. Temp.",
+        "maxTemp": "Max. Temp.",
+        "clouds": "Clouds",
+        "wind": "Wind Speed",
+        "rain": "Rain Volume",
+        "humidity": "Humidity",
+        "pressure": "Pressure"
+      }
+    },
+    "login": {
+      "emailAddress": "Email address",
+      "password": "Password",
+      "submit": "Submit",
+      "newAccount": "Don't have an account? Create a new one here"
+    },
+    "newAccount": {
+      "emailAddress": "Email address",
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submit": "Submit",
+      "login": "Already have an account? Login here"
+    },
+    "myAccount": {
+      "title": "My account",
+      "newDrivingTip": {
+        "button": "New Driving Tip",
+        "title": "New Driving Tip",
+        "save": "Save",
+        "close": "Close"
+      },
+      "updateDrivingTip": {
+        "button": "Modify",
+        "title": "Update driving tip",
+        "save": "Update",
+        "close": "Close"
+      },
+      "deleteDrivingTip": {
+        "button": "Delete",
+        "title": "Confirm delete driving tip",
+        "text": "Do you wish to delete the driving tip?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "headers": {
+        "number": "No.",
+        "categories": "Categories"
+      }
+    },
+    "formValidators": {
+      "identicalCities": "The starting city and the destination city cannot be identical!",
+      "emptyEmail": "The email cannot be empty!",
+      "invalidEmailFormat": "Invalid email format!",
+      "emptyPassword":  "The password cannot be empty!",
+      "emptyUsername": "The username cannot be empty!",
+      "differentPasswords": "The passwords are not identical!",
+      "emptyStartingTime": "The notification time cannot be empty!",
+      "emptyText": "The text cannot be empty!",
+      "emptyCategories": "You have to choose at least one category!"
+    },
+    "messages": {
+      "route": {
+        "genericError": "Could not get route forecast"
+      },
+      "subscribe": {
+        "success": "You successfully subscribed to the route!",
+        "fail": " You were not subscribed to this route!",
+        "genericError": "Could not subscribe to route! Please try again!"
+      },
+      "unsubscribe": {
+        "success": "You successfully unsubscribed from the route!"
+      },
+      "suggestions": {
+        "genericError": "Could not get suggestions"
+      },
+      "newUser": {
+        "success": "Account created successfully!"
+      },
+      "fetchDrivingTips": {
+        "genericError": "Could not load driving tips!"
+      },
+      "addDrivingTip": {
+        "genericError": "Could not save driving tip!"
+      },
+      "undo": {
+        "success": "Undo made successfully!"
+      },
+      "redo": {
+        "success": "Redo made successfully!"
+      },
+      "fetchHistoricalData": {
+        "genericError": "Could not fetch historical data! Please try again!"
+      }
+    }
+  },
+  "romanian": {
+    "lang": "ro",
+    "home": {
+      "startingCityPrompt": "Orașul de start",
+      "destinationCityPrompt": "Orașul destinație",
+      "subscribe": "Abonează-te la rută",
+      "emailAddressPrompt": "Adresa email",
+      "startingTimePrompt": "Timpul de notificare:",
+      "notificationFrequency": "Frecvența notificărilor:",
+      "day": "zi",
+      "days": "zile",
+      "submit": "Trimite"
+    },
+    "headers": {
+      "cityName": "Oraș",
+      "time": "Dată",
+      "weather": "Descriere Vreme",
+      "clouds": "Nori",
+      "wind": "Viteza Vântului"
+    },
+    "showRoute": {
+      "generatePDF": "Generează PDF",
+      "seeDrivingTips": "Consultă sfaturile de condus",
+      "approximately": "Aproximativ",
+      "hours": "ore",
+      "hour": "oră",
+      "minutes": "min",
+      "minute": "min"
+    },
+    "routePDF": {
+      "title": "Prognoza Rutei",
+      "startingCityPrompt": "Orașul de start",
+      "destinationCityPrompt": "Orașul destinație",
+      "startingTimePrompt": "Data de începere:",
+      "mode": "Modul de transport:"
+    },
+    "drivingTips": {
+      "title": "Sfaturi de condus"
+    },
+    "weatherTypes": {
+      "clouds": "Nori",
+      "thunderstorm": "Furtună",
+      "drizzle": "Burniță",
+      "rain": "Ploaie",
+      "snow": "Zăpadă",
+      "atmosphere": "Atmosferă",
+      "clear": "Senin"
+    },
+    "modeOfTransport": {
+      "driving": "condus",
+      "bicycling": "cu bicicleta",
+      "transit": "transport în comun"
+    },
+    "city": "Oraș",
+    "placeData": {
+      "county": "Județ",
+      "latitude": "Latitudine",
+      "longitude": "Longitudine"
+    },
+    "topBar": {
+      "route": "Rută din România",
+      "statistics": "Statistici",
+      "signedInAs": "Logat ca:"
+    },
+    "statistics": {
+      "title": "Verifică statistici pentru ultimele șapte zile",
+      "button": "Arată statistici",
+      "checkDataTitle": "Alege ce date dorești să vezi:",
+      "dataCategories": {
+        "temperature": "Temperatură",
+        "wind": "Viteza vântului",
+        "humidity": "Umiditate",
+        "rain": "Ploaie",
+        "avgData": "Date medii"
+      },
+      "subtitle1": "Date pentru",
+      "temperatures": "Temperaturi",
+      "windSpeed": "Viteza Vântului",
+      "humidity": "Umiditate",
+      "rainVolume": "Volum Ploaie",
+      "hours": "Ore",
+      "days": {
+        "monday": "Lu.",
+        "tuesday": "Ma.",
+        "wednesday": "Mi.",
+        "thursday": "Jo.",
+        "friday": "Vi.",
+        "saturday": "Sâ.",
+        "sunday": "Du."
+      },
+      "subtitle3": "Valorile medii pentru fiecare zi",
+      "headers": {
+        "date": "Data",
+        "weather": "Vreme",
+        "temp": "Temp.",
+        "minTemp": "Temp. Min.",
+        "maxTemp": "Temp. Max.",
+        "clouds": "Nori",
+        "wind": "Viteza Vântului",
+        "rain": "Volum Ploaie",
+        "humidity": "Umiditate",
+        "pressure": "Presiune"
+      }
+    },
+    "login": {
+      "emailAddress": "Adresa email",
+      "password": "Parolă",
+      "submit": "Trimite",
+      "newAccount": "Nu ai un cont? Creează unul aici"
+    },
+    "newAccount": {
+      "emailAddress": "Adresa email",
+      "username": "Username",
+      "password": "Parolă",
+      "confirmPassword": "Confirmă parola",
+      "submit": "Trimite",
+      "login": "Ai deja un cont? Loghează-te aici"
+    },
+    "myAccount": {
+      "title": "Contul meu",
+      "newDrivingTip": {
+        "button": "Sfat de condus nou",
+        "title": "Sfat de condus nou",
+        "save": "Salvează",
+        "close": "Închide"
+      },
+      "updateDrivingTip": {
+        "button": "Modifică",
+        "title": "Actualizează sfat de condus",
+        "save": "Actualizează",
+        "close": "Închide"
+      },
+      "deleteDrivingTip": {
+        "button": "Șterge",
+        "title": "Confirmă ștergerea sfatului de condus",
+        "text": "Dorești să ștergi sfatul de condus?",
+        "yes": "Da",
+        "no": "Nu"
+      },
+      "headers": {
+        "number": "Nr.",
+        "categories": "Categorii"
+      }
+    },
+    "formValidators": {
+      "identicalCities": "Orașul de început și orașul destinație nu pot să fie identice!",
+      "emptyEmail": "Adresa de email nu poate să fie goală!",
+      "invalidEmailFormat": "Format email invalid!",
+      "emptyPassword":  "Parola nu poate să fie goală!",
+      "emptyUsername": "Username-ul nu poate să fie gol!",
+      "differentPasswords": "Parolele nu sunt identice!",
+      "emptyStartingTime": "Timpul de notificare nu poate fi gol!",
+      "emptyText": "Textul nu poate fi gol!",
+      "emptyCategories": "Trebuie să alegi măcar o categorie!"
+    },
+    "messages": {
+      "route": {
+        "genericError": "Nu s-a putut obține prognoza rutei"
+      },
+      "subscribe": {
+        "success": "Te-ai abonat cu succes la rută!",
+        "fail": " Nu ai fost abonat la rută!",
+        "genericError": "Nu s-a putut abona la rută! Încercați din nou!"
+      },
+      "unsubscribe": {
+        "success": "Te-ai dezabonat cu succes de la rută!"
+      },
+      "suggestions": {
+        "genericError": "Nu s-au putut încărca sugestiile"
+      },
+      "newUser": {
+        "success": "Cont creat cu success!"
+      },
+      "fetchDrivingTips": {
+        "genericError": "Nu s-au putut încărca sfaturile de condus!"
+      },
+      "addDrivingTip": {
+        "genericError": "Nu s-a putut salva sfatul de condus!"
+      },
+      "undo": {
+        "success": "Undo făcut cu success!"
+      },
+      "redo": {
+        "success": "Redo făcut cu succes!"
+      },
+      "fetchHistoricalData": {
+        "genericError": "Nu s-au putut obține datele istorice! Încercați din nou!"
+      }
+    }
+  }
+}
