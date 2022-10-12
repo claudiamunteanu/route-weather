@@ -109,7 +109,7 @@ const MyAccount = ({text}) => {
 
     const undoDrivingTip = async () => {
         const language = sessionStorage.getItem("language")
-        const result = await apiProxy.undoDrivingTip(text, language)
+        const result = await apiProxy.undoDrivingTip(user.username, text, language)
         if(result.error){
             showErrorToast(result.message)
         } else {
@@ -120,7 +120,7 @@ const MyAccount = ({text}) => {
 
     const redoDrivingTip = async () => {
         const language = sessionStorage.getItem("language")
-        const result = await apiProxy.redoDrivingTip(text, language)
+        const result = await apiProxy.redoDrivingTip(user.username, text, language)
         if(result.error){
             showErrorToast(result.message)
         } else {

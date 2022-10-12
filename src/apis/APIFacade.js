@@ -181,8 +181,8 @@ export class APIFacade {
             });
     }
 
-    async undoDrivingTip(language, text) {
-        return this.drivingTipsAPI.undo(language)
+    async undoDrivingTip(username, language, text) {
+        return this.drivingTipsAPI.undo(username, language)
             .then(() => {
                 return {error: false, message: text.messages.undo.success}
             }).catch((error) => {
@@ -190,8 +190,8 @@ export class APIFacade {
             });
     }
 
-    async redoDrivingTip(language, text) {
-        return this.drivingTipsAPI.redo(language)
+    async redoDrivingTip(username, language, text) {
+        return this.drivingTipsAPI.redo(username, language)
             .then(() => {
                 return {error: false, message: text.messages.redo.success}
             }).catch((error) => {

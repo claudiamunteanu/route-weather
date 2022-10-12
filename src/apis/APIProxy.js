@@ -78,14 +78,14 @@ export class APIProxy{
         return await this.apiFacade.updateUserDrivingTip(drivingTip, language)
     }
 
-    async undoDrivingTip(text, language){
+    async undoDrivingTip(username, text, language){
         this.initializeFacade()
-        return await this.apiFacade.undoDrivingTip(language, text)
+        return await this.apiFacade.undoDrivingTip(username, language, text)
     }
 
-    async redoDrivingTip(text, language){
+    async redoDrivingTip(username, text, language){
         this.initializeFacade()
-        return await this.apiFacade.redoDrivingTip(language, text)
+        return await this.apiFacade.redoDrivingTip(username, language, text)
     }
 
     getRoutesCities(routes){

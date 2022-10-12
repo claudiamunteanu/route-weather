@@ -25,13 +25,13 @@ export class DrivingTipsAPI {
         return await this.api.put(endpoint, drivingTip)
     }
 
-    async undo(language){
-        const endpoint = `${SERVER_URL}/drivingTips/undo?language=${language}`
+    async undo(username, language){
+        const endpoint = `${SERVER_URL}/drivingTips/undo?username=${username}&language=${language}`
         return await this.api.patch(endpoint)
     }
 
-    async redo(language){
-        const endpoint = `${SERVER_URL}/drivingTips/redo?language=${language}`
+    async redo(username, language){
+        const endpoint = `${SERVER_URL}/drivingTips/redo?username=${username}&language=${language}`
         return await this.api.patch(endpoint)
     }
 }
