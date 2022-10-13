@@ -119,26 +119,33 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* [IntelliJ][IntelliJ-url]
-* [Postgres][Postgres-url]
-* [pgAdmin](https://www.pgadmin.org/) to manage the database
-* An email address for the server to send subscription emails (preferably GMail)
-* An API key from [OpenWeather](https://openweathermap.org/) from a plan which supports hourly forecast
+* [WebStorm][WebStorm-url]
+* [NPM][NPM-url]
+* An API key from [OpenWeather](https://openweathermap.org/) from a plan which supports hourly forecast and historical forecast.
+* An API key from [Google Maps API](https://developers.google.com/maps/documentation) which supports the Directions API, Maps JavaScript API and Places API.
+* The Route-Weather server which you can find [here](https://github.com/claudiamunteanu/route-weather-server.git)
 
 ### Setup and build
-1. Using pgAdmin, create a new Postgre server if you do not have one, then create a new database.
-3. Clone the repo
+1. Create a Heroku account, if you do not have one already.
+2. Clone the [cors-anywhere](https://github.com/Rob--W/cors-anywhere) repository locally and host it on Heroku. For a tutorial, you can check [this article](https://dev.to/imiebogodson/fixing-the-cors-error-by-hosting-your-own-proxy-on-heroku-3lcb).
+4. Clone the repo
    ```sh
-   git clone https://github.com/claudiamunteanu/route-weather-server.git
+   git clone https://github.com/claudiamunteanu/route-weather.git
    ```  
-3. Inside `src/main/resources/app.properties` replace `YOUR_API_KEY` with your API key, `server_email@domain.com` with your server email and `server_password` with the email account's password. If you wish to use an email address that is not from GMail, change the `MAIL_HOST` and `MAIL_PORT` values according to your domain. If the client runs on another URL, change the `WEBSITE_URL` value.
-4. Inside `src/main/resources/application.properties` replace the values of `spring.datasource.username` and  `spring.datasource.password` with the credentials for your postgres server. Also, replace the value of `spring.datasource.url` with your database's url.
+4. Install NPM packages
+   ```
+   npm install
+   ```
+5. Inside the `.env` file, replace `WEATHER_API_KEY` with your OpenWeather API key, and `GOOGLE_API_KEY` with your Google Maps API key.
+6. Inside the `src/config.js` file replace `PROXY_URL` with the url for the proxy hosted on Heroku, which you set up at step 2. If needed, change the `SERVER_URL`'s value with the appropiate URL. Make sure that the URL ends with `/prognozaMeteo`
    
 ### Running
 
-To run the desktop version:
-1. Deploy and run the project using the `StartRestServices` class.
-2. Check that the tables are created in the database, and that the table `cities` is populated.
+1. Deploy and run the server.
+2. Deploy and run the project either with the IDE or with
+   ```
+   npm start
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
