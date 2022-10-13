@@ -102,7 +102,6 @@ Moreover, the user can consult statistics for a city in Romania for the last sev
 
 ### Built With
 * [![React][React.org]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![NPM][NPM.com]][NPM-url]
 * [![React Router][ReactRouter.com]][ReactRouter-url]
 * [![Styled Components][StyledComponents.com]][StyledComponents-url]
@@ -192,7 +191,18 @@ Project Link: [https://github.com/claudiamunteanu/route-weather](https://github.
 
 * [OpenWeather](https://openweathermap.org/)
 * [Google Maps API](https://developers.google.com/maps/documentation)
-* [
+* [react-laag](https://www.react-laag.com/)
+* [prop-types](https://www.npmjs.com/package/prop-types)
+* [google-map-react](https://www.npmjs.com/package/google-map-react)
+* [decode-google-map-polyline](https://www.npmjs.com/package/decode-google-map-polyline)
+* [react-icons](https://www.npmjs.com/package/react-icons)
+* [reactjs-popup](https://www.npmjs.com/package/reactjs-popup)
+* [react-bootstrap](https://www.npmjs.com/package/react-bootstrap)
+* [react-toastify](https://www.npmjs.com/package/react-toastify)
+* [@react-pdf/renderer](https://www.npmjs.com/package/@react-pdf/renderer)
+* [country-flag-icons](https://www.npmjs.com/package/country-flag-icons)
+* [recharts](https://recharts.org/en-US/)
+* [Fixing the CORS error by hosting your own proxy on Heroku](https://dev.to/imiebogodson/fixing-the-cors-error-by-hosting-your-own-proxy-on-heroku-3lcb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
