@@ -1,4 +1,4 @@
-const PROXY = `https://arcane-shelf-73326.herokuapp.com/`;
+const PROXY = `PROXY_URL`;
 
 const GOOGLE_API_URL = 'https://maps.googleapis.com/maps/api';
 const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
