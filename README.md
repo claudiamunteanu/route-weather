@@ -90,6 +90,11 @@ This is the front-end for the web application made for my bachelor thesis.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img src="images/routeWeatherTable.png" alt="Route Weather Table Screenshot" width = "100%">
+<img src="images/routeWeatherMap.png" alt="Route Weather Map Screenshot" width = "100%">
+<img src="images/drivingTips.png" alt="Driving Tips Screenshot" width = "100%">
+<img src="images/statistics.png" alt="Statistics Screenshot" width = "100%">
+
 This project was made to give a hand to those who will go on holidays in order to help them prepare accordingly. The users can view the weather prediction for their route, in multiple locations along the route, at the time when it is predicted that they will be in that place. The informations that they can consult contain details such as the temperature or the precipitations and they can be viewed in a table or on a map. The only routes available at the moment are those in Romania.
 
 The user can add his own driving tips to get ready for his journey, which involves creating an account. Those driving tips will be shown along side the weather informations for the route. 
